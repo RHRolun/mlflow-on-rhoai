@@ -227,8 +227,12 @@ python evaluate_agent.py
 
 Results appear in the MLflow UI under the **Evaluation** tab.
 
-## API Credits
+### Evaluation UI
 
-- Weather data: [Open-Meteo](https://open-meteo.com/) - Free weather API
-- Web search: [DuckDuckGo](https://duckduckgo.com/) - Privacy-focused search
-- Travel search: [Kiwi MCP](https://mcp.kiwi.com) - Free MCP server
+View evaluation runs with custom scorers and aggregated metrics:
+
+![Evaluation Results](../docs/eval1.png)
+
+Inspect per-example results with inputs, outputs, and scorer values:
+
+![Evaluation Details](../docs/eval2.png)
