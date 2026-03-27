@@ -1,4 +1,5 @@
 CLAUDE.md
+.claude
 agent_tracing/mlflow-env
 agent-tracing/mlflow-venv
 .DS_Store
